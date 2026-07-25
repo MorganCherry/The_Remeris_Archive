@@ -2,6 +2,8 @@
 from pathlib import Path
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QTextBrowser, QPushButton, QHBoxLayout, QLabel
 
+from paths import resource_path
+
 TIPS_FILE_PATH = Path(__file__).resolve().parent.parent / "content" / "tips.md"
 
 

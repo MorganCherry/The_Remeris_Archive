@@ -8,7 +8,9 @@ from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QIcon
 from ui.main_window import MainWindow
 
-ICON_PATH = Path(__file__).resolve().parent / "media" / "Wizard_Cat_Icon.PNG"
+from paths import resource_path
+
+ICON_PATH = Path(__file__).resolve().parent / "media" / "BunMage_PNG_V1.7.png"
 
 # Windows-only: tells the OS this app has its own identity, separate from
 # Python itself, this is what fixes the taskbar icon showing the wrong image.

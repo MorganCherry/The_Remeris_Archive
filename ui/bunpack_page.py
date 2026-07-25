@@ -14,6 +14,7 @@ from PySide6.QtWidgets import QMessageBox
 from ui.themes import THEMES
 from ui import settings
 
+from paths import resource_path
 
 
 # Configuration 

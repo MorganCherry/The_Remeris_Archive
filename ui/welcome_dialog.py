@@ -13,8 +13,10 @@ from PySide6.QtCore import Qt, QStandardPaths
 
 from models import Book
 
+from paths import resource_path
+
 DEFAULT_PROJECTS_SUBFOLDER = "The_Remeris_Archive Projects"
-BUNNY_IMAGE_PATH = Path(__file__).resolve().parent.parent / "media" / "BunMage_PNG_V1.png"
+BUNNY_IMAGE_PATH = Path(__file__).resolve().parent.parent / "media" / "BunMage_PNG_V1.7.png"
 
 WELCOME_LINES = [
     "Ah, a new soul seeks the Quill. Sit. Let us begin the ritual.",
@@ -36,7 +38,7 @@ class _WelcomeDialog(QDialog):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("The_Remeris_Archive")
+        self.setWindowTitle("The Remeris Archive")
         self.choice = "skip"
 
         layout = QHBoxLayout(self)
