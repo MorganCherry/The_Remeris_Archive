@@ -19,18 +19,28 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a>
-    <li><a href="#features">Features</a></li>
-        <ul>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li>
+      <a href="#features">Features</a>
+      <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        </ul>
-    <li><a href="#functionalities">Functionalities</a>
-    <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#functionalities">Functionalities</a>
+      <ul>
+        <li><a href="#text-editor">Text Editor</a></li>
+        <li><a href="#character-planning">Character Planning</a></li>
+        <li><a href="#plot-planning">Plot Planning</a></li>
+        <li><a href="#chapter-notes">Chapter Notes</a></li>
+        <li><a href="#bunpack">BunPack</a></li>
+        <li><a href="#themes--appearance">Themes &amp; Appearance</a></li>
+      </ul>
+    </li>
     <li><a href="#download">Download</a></li>
     <li><a href="#design">Design</a></li>
-    <li><a href="#roadmap-and-bugfixes">Roadmap And Bugfixes</a></li>
+    <li><a href="#roadmap-and-bugfixes">Roadmap and Bugfixes</a></li>
     <li><a href="#releases">Releases</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
